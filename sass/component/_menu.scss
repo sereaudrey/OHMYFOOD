@@ -12,17 +12,57 @@
     padding-top: 5%;
     padding-bottom: 5%;
 }
-section {
-    text-align: center;
-    padding-top: 5%;
-}
 
-h1 {
-    text-align: center;
-    padding-top: 5%;
-    padding-bottom: 1%;
-}
 
 .price {
-    text-align: right;
+    padding-left: 20px;
+}
+
+
+.menu1 {
+    background-color: #FCDFDB;
+}
+
+.menu1 h2, .menu1 p {
+    color: rgb(89,26,37);
+}
+.menu1 h2 {
+    font-face: monotype;
+}
+
+.menu2 {
+    background-color: #FFF5FE;
+}
+
+.menu2 h2, .menu2 p {
+    color: rgb(204, 118, 13);
+}
+
+.menu2 h2 {
+    font-family: script mt bold;
+}
+
+.menu3 {
+    background-color: #F9F9F9;
+}
+.menu3 h2, .menu3 p {
+    color: rgb(38, 170, 234);
+}
+
+.menu4 {
+    background-color: #FDFFFD;
+}
+.menu4 h2, .menu4 p {
+    color: rgb(132, 184, 109);
+}
+.menu-cover {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    min-height: 450px;
+    padding: 2%;
+    margin: 5% 8px 5% 8px;
+    box-shadow: 0 0 6px #ccc;
 }
