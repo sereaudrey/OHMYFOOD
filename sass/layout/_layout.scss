@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header, footer {
+    background-color: $color-primary;
+    color: $color-secondary;
+    width: 100%;
+    font-family: $font-family;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    display: block;
+}
+
+img {
+    height: 120px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 1,5rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left:10px;
+}
