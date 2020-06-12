@@ -1,9 +1,18 @@
 header {
-    text-align: center;
-    display: block;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: $color-primary;
+    color: $color-secondary;
+    width: 100%;
+    font-family: $font-family;
+    margin-bottom: 3%;
 
     .img {
         padding: 20px;
+        text-align: center;
     }
 }
 

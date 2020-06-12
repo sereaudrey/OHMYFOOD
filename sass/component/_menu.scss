@@ -1,33 +1,77 @@
-.menu_content, .card {
-    background-color:#FCDFDB;
+.menu_content {
+   
     width: 80%;
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 5% 0;
+    text-align: center;
+    color: black;
+}
+
+.menu-cover {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    min-height: 450px;
+    padding: 2%;
+    margin: 5% 8px 5% 8px;
+    box-shadow: 0 0 6px #ccc;
+}
+
+.card-enchantee {
+    background-color: #FCDFDB;
     margin-left: 10%;
+    margin-bottom: 15%;
+    width: 80%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #3A0912;
+    padding: 5% 0;
 }
 
-.menu_content {
-    padding-top: 5%;
-    padding-bottom: 5%;
+.card-enchantee h2 {
+    font-family: 'Devonshire', cursive;
 }
 
+.card-enchantée h3 p {
+    font-family: 'Sriracha', cursive;
+}
+
+.card-chic {
+    background-color: #FFF5FE;
+    margin-left: 10%;
+    margin-bottom: 15%;
+    width: 80%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:  #C77412;
+    padding: 5% 0;
+}
 
 .price {
     padding-left: 20px;
+    display: flex;
+    justify-content: end;
 }
-
 
 .menu1 {
     background-color: #FCDFDB;
-}
 
+}
 .menu1 h2, .menu1 p {
     color: rgb(89,26,37);
+    text-align: center;
 }
 .menu1 h2 {
-    font-face: monotype;
+    font-family: 'Sriracha', cursive;
 }
 
 .menu2 {
@@ -55,14 +99,4 @@
 .menu4 h2, .menu4 p {
     color: rgb(132, 184, 109);
 }
-.menu-cover {
-    display : flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 40%;
-    min-height: 450px;
-    padding: 2%;
-    margin: 5% 8px 5% 8px;
-    box-shadow: 0 0 6px #ccc;
-}
+

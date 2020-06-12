@@ -2,13 +2,11 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+    width: 70%;
+    margin: 0 auto 60px auto;
 }
+   
 
-header, footer {
-    background-color: $color-primary;
-    color: $color-secondary;
-    width: 100%;
-    font-family: $font-family;
-}
+    

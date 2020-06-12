@@ -1,21 +1,29 @@
 h1 {
-    font-family: arial, tahoma, comic;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold; 
+    font-size: 2rem;
     text-align: center;
     padding-top: 5%;
     padding-bottom: 1%;
+    margin-bottom: 30px;
 }
 
 
 h3 {
     font-size: 1.7rem;
     margin: 40px 0;
+    
 }
 
 a {
     text-decoration: none;
   }
 
-body {
-    font-family: 'Roboto', sans-serif;
+p {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    margin: 10px;
 }
+
