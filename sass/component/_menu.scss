@@ -1,13 +1,74 @@
-.menu_content {
-   
-    width: 80%;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 5% 0;
+.menu1 {
+    background-color: #FCDFDB;
     text-align: center;
-    color: black;
+
+    p{
+        font-family: 'Sriracha', cursive;
+        font-size: 2rem;
+        color: #3A0912;
+    }
+
+    h2{
+        font-size: 2rem;
+        font-family: 'Devonshire', cursive;
+        color: #3A0912;
+    }
+}
+.menu2 {
+    background-color: #FFF5FE;
+    text-align: center;
+
+    p {
+        font-family: 'Noto Serif', serif;
+        font-size: 1.4rem;
+        font-weight: bold;
+        color: #C77412;
+    }
+
+    h2 {
+        font-family: 'Croissant One', cursive;
+        font-size: 1.3rem;
+        background: linear-gradient(to right, #C77412 0%, #905BFD 100%);
+	    -webkit-background-clip: text;
+	    -webkit-text-fill-color: transparent;
+    }
+}
+.menu3 {
+    background-color: #F9F9F9;
+    text-align: center;
+
+    p{
+        font-family: 'Sriracha', cursive, ;
+        font-size: 1.4rem;
+        color: rgb(38, 170, 234);
+    }
+
+    h2{
+        font-family: 'Parisienne', cursive;
+        font-size: 2rem;
+        background: linear-gradient(to right, #0431DF 0%, #0E88FB 100%);
+	    -webkit-background-clip: text;
+	    -webkit-text-fill-color: transparent;
+    }
+}
+.menu4 {
+    background-color: #FDFFFD;
+    text-align: center;
+    font-size: 2rem;
+
+    p{
+        font-family: 'Sriracha', cursive;
+        font-size: 1.4rem;
+        color: rgb(132, 184, 109);
+    }
+
+    h2{
+        font-family: 'Kaushan Script', cursive;
+        font-size: 2rem;
+        background: linear-gradient(to right, #72BF56 0%, #BFFF7E 100%);
+	    -webkit-background-clip: text;
+	    -webkit-text-fill-color: transparent;
+    }
 }
 
 .menu-cover {
@@ -20,6 +81,38 @@
     padding: 2%;
     margin: 5% 8px 5% 8px;
     box-shadow: 0 0 6px #ccc;
+
+    p {
+        text-align: center;
+        font-size: 1.4rem;
+        margin: 10px;
+    }
+}
+
+
+.menu_content {
+   
+    width: 85%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 5% 0;
+
+    h3{
+        text-align: center;
+    }
+
+    .price {
+        text-align: end;
+    }
+
+    p{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        font-size: 1.4rem;
+        margin: 20px;
+    }
 }
 
 .card-enchantee {
@@ -33,14 +126,14 @@
     justify-content: center;
     color: #3A0912;
     padding: 5% 0;
-}
 
-.card-enchantee h2 {
-    font-family: 'Devonshire', cursive;
-}
+    h2 {
+        font-family: 'Devonshire', cursive;
+    }
 
-.card-enchantée h3 p {
-    font-family: 'Sriracha', cursive;
+    h3, p {
+        font-family: 'Sriracha', cursive;
+    }
 }
 
 .card-chic {
@@ -52,51 +145,76 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color:  #C77412;
     padding: 5% 0;
+
+    h2 {
+        font-family: 'Croissant One', cursive;
+        background: linear-gradient(to right, #C77412 0%, #905BFD 100%);
+	    -webkit-background-clip: text;
+	    -webkit-text-fill-color: transparent;
+    }
+
+    h3 p {
+        font-family: 'Noto Serif', serif;
+    }
 }
 
-.price {
-    padding-left: 20px;
-    display: flex;
-    justify-content: end;
-}
-
-.menu1 {
-    background-color: #FCDFDB;
-
-}
-.menu1 h2, .menu1 p {
-    color: rgb(89,26,37);
-    text-align: center;
-}
-.menu1 h2 {
-    font-family: 'Sriracha', cursive;
-}
-
-.menu2 {
-    background-color: #FFF5FE;
-}
-
-.menu2 h2, .menu2 p {
-    color: rgb(204, 118, 13);
-}
-
-.menu2 h2 {
-    font-family: script mt bold;
-}
-
-.menu3 {
+.card-delice {
     background-color: #F9F9F9;
-}
-.menu3 h2, .menu3 p {
-    color: rgb(38, 170, 234);
+    margin-left: 10%;
+    margin-bottom: 15%;
+    width: 80%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:  black;
+    padding: 5% 0;
+
+    h2 {
+        font-family: 'Parisienne', cursive;
+        background: linear-gradient(to right, #0431DF 0%, #0E88FB 100%);
+	    -webkit-background-clip: text;
+	    -webkit-text-fill-color: transparent;
+    }
+
+    h3 p {
+        font-family: 'Parisienne', cursive;
+    }
 }
 
-.menu4 {
-    background-color: #FDFFFD;
-}
-.menu4 h2, .menu4 p {
-    color: rgb(132, 184, 109);
+.card-palette {
+    background-color:rgb(244, 248, 243);
+    margin-left: 10%;
+    margin-bottom: 15%;
+    width: 80%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:  black;
+    padding: 5% 0;
+
+    h2 {
+        font-family: 'Kaushan Script', cursive;
+        background: linear-gradient(to right, #72BF56 0%, #BFFF7E 100%);
+	    -webkit-background-clip: text;
+	    -webkit-text-fill-color: transparent;
+    }
+
+    h3 p {
+        font-family: 'Parisienne', cursive;
+    }
 }
 
+.text-color-orange {
+    color:  #C77412;
+}
+
+.text-color-purple {
+    color: #A56799;
+}
+
+.text-color-blue {
+    color: #6E4CCC;
+}
