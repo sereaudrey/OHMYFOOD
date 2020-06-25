@@ -17,6 +17,9 @@ h3 {
 
 a {
     text-decoration: none;
-  }
+}
 
+a:visited {
+    color: $color-secondary;
+}
 
