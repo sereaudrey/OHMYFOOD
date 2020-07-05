@@ -6,7 +6,11 @@
 }
 
 body {
-    margin-bottom: 60px;
+    margin-bottom: 100px;
+
+    @include media-sm {
+      margin-bottom: 150px;
+  }
 }
 
 .fas {

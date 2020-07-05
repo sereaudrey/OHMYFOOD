@@ -6,12 +6,24 @@
         font-family: 'Sriracha', cursive;
         font-size: 2rem;
         color: #3A0912;
+        @include media-sm {
+            font-size: 3rem;
+        }
+        @include media-xs {
+            font-size: 2rem;
+        }
     }
 
     h2{
         font-size: 2rem;
         font-family: 'Devonshire', cursive;
         color: #3A0912;
+        @include media-sm {
+            font-size: 3rem;
+        }
+        @include media-xs {
+            font-size: 3rem;
+        }
     }
 }
 .menu2 {
@@ -23,6 +35,12 @@
         font-size: 1.4rem;
         font-weight: bold;
         color: #C77412;
+        @include media-sm {
+            font-size: 3rem;
+        }
+        @include media-xs {
+            font-size: 2rem;
+        }
     }
 
     h2 {
@@ -30,7 +48,13 @@
         font-size: 1.3rem;
         background: linear-gradient(to right, #C77412 0%, #905BFD 100%);
 	    -webkit-background-clip: text;
-	    -webkit-text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
+        @include media-sm {
+            font-size: 3rem;
+        }
+        @include media-xs {
+            font-size: 2rem;
+        }
     }
 }
 .menu3 {
@@ -41,6 +65,12 @@
         font-family: 'Sriracha', cursive, ;
         font-size: 1.4rem;
         color: rgb(38, 170, 234);
+        @include media-sm {
+            font-size: 3rem;
+        }
+        @include media-xs {
+            font-size: 2rem;
+        }
     }
 
     h2{
@@ -48,7 +78,13 @@
         font-size: 2rem;
         background: linear-gradient(to right, #0431DF 0%, #0E88FB 100%);
 	    -webkit-background-clip: text;
-	    -webkit-text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
+        @include media-sm {
+            font-size: 3rem;
+        }
+        @include media-xs {
+            font-size: 2rem;
+        }
     }
 }
 .menu4 {
@@ -60,6 +96,12 @@
         font-family: 'Sriracha', cursive;
         font-size: 1.4rem;
         color: rgb(132, 184, 109);
+        @include media-sm {
+            font-size: 3rem;
+        }
+        @include media-xs {
+            font-size: 2rem;
+        }
     }
 
     h2{
@@ -67,7 +109,13 @@
         font-size: 2rem;
         background: linear-gradient(to right, #72BF56 0%, #BFFF7E 100%);
 	    -webkit-background-clip: text;
-	    -webkit-text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
+        @include media-sm {
+            font-size: 3rem;
+        }
+        @include media-xs {
+            font-size: 2rem;
+        }
     }
 }
 
@@ -82,16 +130,13 @@
     margin: 5% 8px 5% 8px;
     box-shadow: 0 0 6px #ccc;
 
-    p {
-        text-align: center;
-        font-size: 1.4rem;
-        margin: 10px;
+    @include media-sm {
+        width: 900px;
     }
 }
 
 
 .menu_content {
-   
     width: 85%;
     display: flex;
     flex-wrap: nowrap;
@@ -130,10 +175,20 @@
     h2 {
         font-family: 'Devonshire', cursive;
         font-size: 4rem;
+
+        @include media-sm {
+            font-size: 3rem;
+        }
+        @include media-xs {
+            font-size: 2.5rem;
+        }
     }
 
     h3, p {
         font-family: 'Sriracha', cursive;
+        @include media-xs {
+            font-size: 1.2rem;
+        }
     }
 }
 
@@ -151,13 +206,25 @@
     h2 {
         font-family: 'Croissant One', cursive;
         font-size: 3rem;
+        text-align: center;
         background: linear-gradient(to right, #C77412 0%, #905BFD 100%);
 	    -webkit-background-clip: text;
-	    -webkit-text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
+        
+        @include media-sm {
+            font-size: 2rem;
+        }
+        @include media-xs {
+            font-size: 2.2rem;
+        }
     }
 
     h3, p {
         font-family: 'Noto Serif', serif;
+
+        @include media-xs {
+            font-size: 1rem;
+        }
     }
 }
 
@@ -176,13 +243,26 @@
     h2 {
         font-family: 'Parisienne', cursive;
         font-size: 4rem;
+        text-align: center;
         background: linear-gradient(to right, #0431DF 0%, #0E88FB 100%);
 	    -webkit-background-clip: text;
-	    -webkit-text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
+        
+        @include media-sm {
+            font-size: 3rem;
+        }
+
+        @include media-xs {
+            font-size: 2.5rem;
+        }
     }
 
     h3, p {
         font-family: 'Sriracha', cursive;
+
+        @include media-xs {
+            font-size: 1rem;
+        }
     }
 }
 
@@ -201,13 +281,26 @@
     h2 {
         font-family: 'Kaushan Script', cursive;
         font-size: 4rem;
+        text-align: center;
         background: linear-gradient(to right, #72BF56 0%, #BFFF7E 100%);
 	    -webkit-background-clip: text;
-	    -webkit-text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
+        
+        @include media-sm {
+            font-size: 3rem;
+        }
+
+        @include media-xs {
+            font-size: 2.5rem;
+        }
     }
 
     h3, p {
         font-family: 'Sriracha', cursive;
+
+        @include media-xs {
+            font-size: 1rem;
+        }
     }
 }
 

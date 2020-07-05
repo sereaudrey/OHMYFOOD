@@ -8,9 +8,27 @@ footer {
     color: $color-secondary;
     width: 100%;
     font-family: $font-family;
+
+    @include media-sm {
+        height: 8rem;
+    }
+
+    @include media-xs {
+        height: 6rem;
+    }
 }
 
 .item {
     padding: 20px;
     font-size: 1.7rem;
+
+    @include media-sm {
+        padding: 30px 5px;
+        font-size: 2.5rem;
+    }
+
+    @include media-xs {
+        padding: 10px 5px;
+        font-size: 2rem;
+    }
 }
