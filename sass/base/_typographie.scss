@@ -12,6 +12,9 @@ h1 {
 h3 {
     font-size: 1.7rem;
     margin: 40px 0;
+
+    &::before {content: "------";}
+    &::after {content: "------";}
     
 }
 
@@ -19,7 +22,7 @@ a {
     text-decoration: none;
 }
 
-a:visited {
+a, a:visited {
     color: $color-secondary;
 }
 

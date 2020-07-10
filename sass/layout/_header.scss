@@ -1,5 +1,9 @@
 header {
     height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     background-color: $color-primary;
     color: $color-secondary;
     width: 100%;
@@ -7,8 +11,7 @@ header {
     margin-bottom: 3%;
 
     .img {
-        padding: 20px;
-        margin: 0 auto;
+        display: block;
         height: 120px;
 
         @include media-sm {

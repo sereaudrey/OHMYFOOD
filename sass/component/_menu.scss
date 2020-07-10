@@ -1,3 +1,12 @@
+.menu-cover-content {
+    transition: transform cubic-bezier(.50,.5,.10,.60) 400ms, opacity cubic-bezier(.50,.5,.10,.60) 400ms;
+    
+    &:hover {
+        transform: scale(1.3);
+        opacity: 0.5;
+    }
+}
+
 .menu1 {
     background-color: #FCDFDB;
     text-align: center;
@@ -12,6 +21,7 @@
         @include media-xs {
             font-size: 2rem;
         }
+        
     }
 
     h2{

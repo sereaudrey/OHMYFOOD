@@ -31,4 +31,10 @@ footer {
         padding: 10px 5px;
         font-size: 2rem;
     }
+
+    &:hover {
+        animation: wiggle 100ms cubic-bezier(.4,.1,.6,.9) 3;
+    }
+   
 }
+
