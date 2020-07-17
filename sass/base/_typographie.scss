@@ -8,34 +8,31 @@ h1 {
     margin-bottom: 30px;
 }
 
-
 h3 {
     font-size: 1.7rem;
     margin: 40px 0;
 
-    &::before {content: "------";}
-    &::after {content: "------";}
+    &::before { content: "------ "; }
+    &::after { content: " ------"; }
     
     .underline {
         display: inline;
         position: relative;
         text-decoration: none;
-    }
 
-    .underline:after {
-    content: '';
-    display: block;
-    position: absolute;
-    bottom: 2px;
-    width: 0%;
-    left: 0px;
-    height: 6px;
-    transition: 0.25s cubic-bezier(0.72,-0.01, 0.19, 0.92);
-    background: grey
-    }
+        &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            bottom: 2px;
+            width: 0;
+            left: 0;
+            height: 6px;
+            transition: 0.25s cubic-bezier(0.72,-0.01, 0.19, 0.92);
+            background: grey;
+        }
 
-    .underline:hover:after {
-        width:100%;
+        &:hover::after { width: 100%; }
     }
 }
 

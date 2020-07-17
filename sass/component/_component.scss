@@ -21,8 +21,8 @@
    
 }
 
+$delay: 0ms, 200ms, 400ms;
 @for $i from 1 through 3 {
-    $delay: 0ms, 200ms, 400ms;
     .dot:nth-child(#{$i}) {
         animation: blink 2s infinite nth($delay, $i); 
     }

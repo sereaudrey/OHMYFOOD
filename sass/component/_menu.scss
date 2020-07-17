@@ -325,3 +325,24 @@
 .text-color-blue {
     color: #6E4CCC;
 }
+
+$separator-classes: (dark_blue: #0431DF, medium_blue: #0670F3, light_blue: #0E88FB);
+@each $name, $value in $separator-classes {
+    .#{$name} {
+        &::before, &::after {color: $value;}
+    }
+}
+
+.gradient_green {
+    &::before {
+        background: linear-gradient(to right, #72BF56 0%, #BFFF7E 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    &::after {
+        background: linear-gradient(to left, #72BF56 0%, #BFFF7E 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
