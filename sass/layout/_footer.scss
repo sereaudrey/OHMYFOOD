@@ -16,6 +16,11 @@ footer {
     @include media-xs {
         height: 6rem;
     }
+
+    @include media-xxs {
+        display: block;
+        padding: 20px 0;
+    }
 }
 
 .item {
@@ -30,6 +35,13 @@ footer {
     @include media-xs {
         padding: 10px 5px;
         font-size: 2rem;
+    }
+
+    @include media-xxs {
+        display: block;
+        justify-content: space-evenly;
+        text-align: center;
+        font-size: 1.7rem;
     }
 
     &:hover {

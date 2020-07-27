@@ -18,6 +18,9 @@
         width: 300px;
         font-size: 2rem;
     }
+    @include media-xxs {
+        font-size: 1.7rem;
+    }
    
 }
 

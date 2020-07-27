@@ -1,0 +1,61 @@
+.menu1 {
+    background-color: #FCDFDB;
+    text-align: center;
+
+    p{
+        font-family: 'Sriracha', cursive;
+        font-size: 2rem;
+        color: #3A0912;
+        @include media-sm {
+            font-size: 3rem;
+        }
+        @include media-xs {
+            font-size: 2rem;
+        }
+        
+    }
+
+    h2{
+        font-size: 2rem;
+        font-family: 'Devonshire', cursive;
+        color: #3A0912;
+        @include media-sm {
+            font-size: 3rem;
+        }
+        @include media-xs {
+            font-size: 3rem;
+        }
+    }
+}
+
+.card-enchantee {
+    background-color: #FCDFDB;
+    margin-left: 10%;
+    margin-bottom: 15%;
+    width: 80%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #3A0912;
+    padding: 5% 0;
+
+    h2 {
+        font-family: 'Devonshire', cursive;
+        font-size: 4rem;
+
+        @include media-sm {
+            font-size: 3rem;
+        }
+        @include media-xs {
+            font-size: 2.5rem;
+        }
+    }
+
+    h3, p {
+        font-family: 'Sriracha', cursive;
+        @include media-xs {
+            font-size: 1.2rem;
+        }
+    }
+}
