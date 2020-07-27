@@ -293,8 +293,9 @@
         font-size: 4rem;
         text-align: center;
         background: linear-gradient(to right, #72BF56 0%, #BFFF7E 100%);
-	    -webkit-background-clip: text;
+        -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        
         
         @include media-sm {
             font-size: 3rem;
