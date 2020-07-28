@@ -1,11 +1,23 @@
 h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: bold; 
+    font-size: 6rem;
+    text-align: center;
+
+    @include media-xxs {
+        font-size: 4rem;
+    }
+
+    @include media-xs {
+        font-size: 5rem;
+    }
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold; 
     font-size: 2rem;
     text-align: center;
-    padding-top: 5%;
-    padding-bottom: 1%;
-    margin-bottom: 30px;
 }
 
 h3 {
