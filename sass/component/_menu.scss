@@ -1,11 +1,4 @@
-.menu-cover {
-    transition: transform cubic-bezier(.50,.5,.10,.60) 400ms, opacity cubic-bezier(.50,.5,.10,.60) 400ms;
-    
-    &:hover {
-        transform: scale(1.2);
-        opacity: 0.5;
-    }
-}
+
 
 .menu-cover {
     display : flex;
@@ -17,6 +10,12 @@
     padding: 2%;
     margin: 5% 8px 5% 8px;
     box-shadow: 0 0 6px #ccc;
+    transition: transform cubic-bezier(.50,.5,.10,.60) 400ms, opacity cubic-bezier(.50,.5,.10,.60) 400ms;
+        
+        &:hover {
+            transform: scale(1.2);
+            opacity: 0.5;
+        }
 
     @include media-sm {
         width: 900px;
