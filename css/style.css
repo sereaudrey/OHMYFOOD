@@ -81,7 +81,7 @@ h3 .underline::after {
   width: 0;
   left: 0;
   height: 6px;
-  transition: 0.25s cubic-bezier(0.72, -0.01, 0.19, 0.92);
+  transition: 0.4s cubic-bezier(1, 0, 0.2, 1);
   background: grey;
 }
 h3 .underline:hover::after {
